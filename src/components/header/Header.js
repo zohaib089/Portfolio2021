@@ -76,7 +76,7 @@ function Header() {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#">
+            <a href="#/">
               <ToggleSwitch />
             </a>
           </li>

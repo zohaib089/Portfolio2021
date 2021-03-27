@@ -1,11 +1,11 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Podcast.css";
-import {podcastSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { podcastSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!podcastSection.display) {
     return null;
   }
@@ -31,6 +31,7 @@ export default function Podcast() {
                 <iframe
                   className="podcast"
                   src={podcastLink}
+                  title="uni"
                   frameBorder="0"
                   scrolling="no"
                 ></iframe>
